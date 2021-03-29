@@ -1,4 +1,6 @@
-#![feature(slice_group_by)]
+// #![feature(slice_group_by)]
+mod group_by;
+pub use group_by::{GroupByTrait};
 
 const GUESS_NUMBERS_COUNT: usize = 6;
 
@@ -75,3 +77,4 @@ fn main() {
     });
   }
 }
+
